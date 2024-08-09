@@ -1,27 +1,23 @@
 ---
-name: Vercel Cron Job Example
+name: Vercel Cron Job Example adapted by @chelorossi
 slug: vercel-cron
-description: A Next.js app that uses Vercel Cron Jobs to update data at different intervals.
+description: A Next.js app that uses Vercel Cron Jobs to update data at different intervals (Currently all same * * * * *, since it's hobby acc).
 framework: Next.js
 useCase:
   - Cron
   - Edge Functions
 css: Tailwind
 database: Vercel KV
-deployUrl: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fsolutions%2Fcron&project-name=cron&repository-name=cron&demo-title=Vercel%20Cron%20Job%20Example&demo-description=A%20Next.js%20app%20that%20uses%20Vercel%20Cron%20Jobs%20to%20update%20data%20at%20different%20intervals.&demo-url=https%3A%2F%2Fcron-template.vercel.app%2F&demo-image=https%3A%2F%2Fcron-template.vercel.app%2Fthumbnail.png&stores=%5B%7B"type"%3A"kv"%7D%5D
-demoUrl: https://cron-template.vercel.app/
+deployUrl: The deploy would have only
 relatedTemplates:
   - hacker-news-slack-bot
   - cron-og
 ---
 
-# Vercel Cron Job Example
+# Vercel Cron Job with Security
 
 A Next.js app that uses [Vercel Cron Jobs](https://vercel.com/docs/cron-jobs) to update data at different intervals.
-
-## Demo
-
-https://cron-template.vercel.app/
+Adds security
 
 ## How to Use
 

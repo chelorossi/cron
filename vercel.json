@@ -8,27 +8,27 @@
     },
     {
       "path": "/api/cron/10m",
-      "schedule": "*/10 * * * *"
+      "schedule": "* * * * *"
     },
     {
       "path": "/api/cron/1h",
-      "schedule": "0 * * * *"
+      "schedule": "* * * * *"
     },
     {
       "path": "/api/cron/12h",
-      "schedule": "0 */12 * * *"
+      "schedule": "* * * * *"
     },
     {
       "path": "/api/cron/1d",
-      "schedule": "0 0 * * *"
+      "schedule": "* * * * *"
     },
     {
       "path": "/api/cron/1w",
-      "schedule": "0 0 * * 0"
+      "schedule": "* * * * *"
     },
     {
       "path": "/api/cron/1mo",
-      "schedule": "0 0 1 * *"
+      "schedule": "* * * * *"
     }
   ]
 }
