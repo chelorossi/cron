@@ -3,32 +3,8 @@
   "ignoreCommand": "pnpm dlx turbo-ignore",
   "crons": [
     {
-      "path": "/api/cron/1m",
-      "schedule": "* * * * *"
-    },
-    {
-      "path": "/api/cron/10m",
-      "schedule": "* * * * *"
-    },
-    {
-      "path": "/api/cron/1h",
-      "schedule": "* * * * *"
-    },
-    {
-      "path": "/api/cron/12h",
-      "schedule": "* * * * *"
-    },
-    {
       "path": "/api/cron/1d",
-      "schedule": "* * * * *"
-    },
-    {
-      "path": "/api/cron/1w",
-      "schedule": "* * * * *"
-    },
-    {
-      "path": "/api/cron/1mo",
-      "schedule": "* * * * *"
+      "schedule": "0 18 * * *"
     }
   ]
 }
