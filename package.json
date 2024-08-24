@@ -1,6 +1,6 @@
 {
   "name": "cron",
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "chelorossi/cron.git",
   "license": "MIT",
   "private": true,
   "scripts": {
